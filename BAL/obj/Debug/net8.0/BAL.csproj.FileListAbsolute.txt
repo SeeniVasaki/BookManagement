@@ -1,0 +1,12 @@
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\bin\Debug\net8.0\BAL.deps.json
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\bin\Debug\net8.0\BAL.dll
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\bin\Debug\net8.0\BAL.pdb
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.csproj.AssemblyReference.cache
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.AssemblyInfoInputs.cache
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.AssemblyInfo.cs
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.csproj.CoreCompileInputs.cache
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.dll
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\refint\BAL.dll
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\BAL.pdb
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\BAL\obj\Debug\net8.0\ref\BAL.dll

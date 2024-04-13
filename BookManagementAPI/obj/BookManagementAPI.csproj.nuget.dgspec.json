@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BAL\\BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BAL\\BAL.csproj",
+        "projectName": "BAL",
+        "projectPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BAL\\BAL.csproj",
+        "packagesPath": "C:\\Users\\ilavarasan\\.nuget\\packages\\",
+        "outputPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ilavarasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI.csproj",
+        "projectName": "BookManagementAPI",
+        "projectPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI.csproj",
+        "packagesPath": "C:\\Users\\ilavarasan\\.nuget\\packages\\",
+        "outputPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BookManagementAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ilavarasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BAL\\BAL.csproj": {
+                "projectPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\BAL\\BAL.csproj"
+              },
+              "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\ilavarasan\\.nuget\\packages\\",
+        "outputPath": "D:\\Seenivasaki\\PROJECT\\BookManagementAPI\\BookManagementAPI\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ilavarasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

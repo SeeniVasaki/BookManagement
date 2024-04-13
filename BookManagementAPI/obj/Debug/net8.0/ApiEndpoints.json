@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "BookManagementAPI.Controllers.BookController",
+    "Method": "SaveBooks",
+    "RelativePath": "api/Book/SaveBooks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "books",
+        "Type": "System.Collections.Generic.List\u00601[[BAL.Models.Book, BAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagementAPI.Controllers.BookController",
+    "Method": "GetBooksSortedByAuthorTitle",
+    "RelativePath": "api/Book/SortedByAuthorTitle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagementAPI.Controllers.BookController",
+    "Method": "GetBooksSortedByPublisherAuthorTitle",
+    "RelativePath": "api/Book/SortedByPublisherAuthorTitle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManagementAPI.Controllers.BookController",
+    "Method": "GetTotalPriceOfAllBooks",
+    "RelativePath": "api/Book/Totalprice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

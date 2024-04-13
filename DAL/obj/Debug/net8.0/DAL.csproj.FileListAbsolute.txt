@@ -1,0 +1,12 @@
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\bin\Debug\net8.0\DAL.dll
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.dll
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Seenivasaki\PROJECT\BookManagementAPI\BookManagementAPI\DAL\obj\Debug\net8.0\ref\DAL.dll
