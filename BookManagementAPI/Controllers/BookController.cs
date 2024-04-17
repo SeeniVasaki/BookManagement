@@ -1,9 +1,6 @@
 ﻿using BAL.Models;
 using BAL.Services.Interface;
-using BookManagementAPI.Filters;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace BookManagementAPI.Controllers
 {
@@ -18,6 +15,10 @@ namespace BookManagementAPI.Controllers
             _bookService = bookService;
         }
 
+        /// <summary>
+        /// Sorted list of books by Publisher, Author (last, first), then title.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("SortedByPublisherAuthorTitle")]
         public async Task<IActionResult> GetBooksSortedByPublisherAuthorTitle()
         {
@@ -25,6 +26,10 @@ namespace BookManagementAPI.Controllers
             return Ok(sortedBooks);
         }
 
+        /// <summary>
+        /// Sorted list of books by Author (last, first) then title.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("SortedByAuthorTitle")]
         public async Task<IActionResult> GetBooksSortedByAuthorTitle()
         {
@@ -32,6 +37,10 @@ namespace BookManagementAPI.Controllers
             return Ok(sortedBooks);
         }
 
+        /// <summary>
+        /// Total price of all books
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("Totalprice")]
         public async Task<ActionResult> GetTotalPriceOfAllBooks()
         {
@@ -39,6 +48,23 @@ namespace BookManagementAPI.Controllers
             return Ok(sortedBooks);
         }
 
+        /// <summary>
+        /// Insert the bulk books
+        /// </summary>
+        /// <remarks>
+        /// Sample Request:
+        ///     [
+        ///         {
+        ///            "publisher": "Subha",
+        ///            "title": "Money Mangement",
+        ///            "authorLastName": "Murugan",
+        ///            "authorFirstName": "Varun",
+        ///            "price" : 12.00,
+        ///            "yearPublished" : 2022,
+        ///            "cityPublished" : "Chennai"
+        ///         }
+        ///     ]
+        /// </remarks>
         [HttpPost("SaveBooks")]
         public async Task<ActionResult> SaveBooks(List<Book> books)
         {

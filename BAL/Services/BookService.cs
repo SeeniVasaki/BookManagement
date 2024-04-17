@@ -2,6 +2,7 @@
 using BAL.Models;
 using BAL.Services.Interface;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using System.Data;
 using static BAL.Utilities.Constants;
 using static System.Reflection.Metadata.BlobBuilder;
@@ -10,7 +11,13 @@ namespace BAL.Services
 {
     public class BookService : IBookService
     {
-        string _connectionString = "Server=ZOI-TVL-L0027;Database=BookManagement;MultipleActiveResultSets=true;TrustServerCertificate=True;Integrated Security=true;";
+        private readonly string _connectionString;
+
+        public BookService(IConfiguration configuration)
+        {
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
+        }
+    
 
         public async Task<JsonResponse> GetBooksSortedByPublisherAuthorTitle()
         {
